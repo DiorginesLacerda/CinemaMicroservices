@@ -1,0 +1,11 @@
+/booking-service/data
+/booking-service/src/node_modules
+
+/grocery-inventory-service/data
+/grocery-inventory-service/src/node_modules
+
+/movies-service/data
+/movies-service/src/node_modules
+
+/payment-service/data
+/payment-service/src/node_modules

@@ -1,0 +1,19 @@
+{
+  "name": "movies-service",
+  "version": "1.0.0",
+  "description": "Provide movie info.",
+  "main": "indes.js",
+  "scripts": {
+    "start": "node index",
+    "test": "node index.test | tap-spec"
+  },
+  "author": "Diorgines Lacerda",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-safe": "^6.0.0",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.6",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
