@@ -21,7 +21,6 @@ function getMoviesPremieres(callback){
     mongodb.connect((err,db)=>{
         db.collection("movies").find({ dataLancamento: {$gte: monthAgo } }).toArray(callback);
     })
-
 }
 
 //Necessária para os testes unitários
